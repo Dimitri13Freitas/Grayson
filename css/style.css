@@ -1,0 +1,186 @@
+/*GERAIS*/
+* {
+  color: #c4c4c4;
+  font-family: "Playfair Display SC", georgia;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+html {
+  background: linear-gradient(63.18deg, #000000 0%, #787878 100%);
+}
+
+/*TITULO*/
+
+.titulo-pagina {
+  display: flex;
+  justify-content: space-around;
+  gap: 397px;
+}
+.titulo {
+  margin-top: 40px;
+  font-size: 64px;
+  letter-spacing: 10px;
+}
+.titulo span {
+  margin-left: 144px;
+}
+
+/*BOTÃO*/
+
+.btn-contato {
+  font-size: 24px;
+  margin-top: 60px;
+}
+.btn {
+  text-decoration: none;
+  text-align: center;
+  background: #6c6c6c;
+  padding: 20px 60px;
+  transition: 0.4s;
+}
+.btn:hover {
+  background: #747474;
+}
+
+/*INTRODUÇÃO*/
+
+.introducao {
+  display: flex;
+  margin-top: 40px;
+  width: 100%;
+  background: #2d2d2d;
+  height: 330px;
+  align-items: center;
+  justify-content: space-between;
+}
+.introducao p {
+  font-size: 18px;
+  letter-spacing: 0.1em;
+  max-width: 660px;
+  max-height: 170px;
+  margin-left: 55px;
+}
+.redes-sociais {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background: #c4c4c4;
+}
+.redes-sociais a {
+  transition: 0.4s;
+  padding: 20px 15px;
+}
+.redes-sociais a:hover {
+  background: #747474;
+}
+
+/*CONTEUDO*/
+
+.subtitulo {
+  font-size: 36px;
+  letter-spacing: 0.1em;
+  font-weight: normal;
+  margin: 80px 55px;
+}
+.gato h1 {
+  margin: 25px 55px;
+  padding-top: 25px;
+}
+.gato {
+  max-width: 1110px;
+  background: #2d2d2d;
+}
+.gato p {
+  font-size: 14px;
+  letter-spacing: 0.1em;
+  max-width: 830px;
+  margin-left: 55px;
+  padding-bottom: 55px;
+}
+.content-gato {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 100px;
+}
+
+.info li {
+  font-family: "Courier Prime", monospace;
+  color: black;
+  font-size: 18px;
+  letter-spacing: 0.1em;
+  padding: 15px;
+  margin: 0px 200px 0px 60px;
+}
+
+.gato-info li + li {
+  border-top: 2px solid #2c2c2c;
+}
+.gato-info {
+  background: #474747;
+  padding: 70px 0px 70px 0px;
+}
+
+/*LOBO*/
+
+.lobo {
+  margin-top: 90px;
+  margin-left: 240px;
+}
+.content-lobo {
+  margin-left: 0px;
+}
+.content-lobo img {
+  margin-right: 100px;
+}
+
+/*CORUJA*/
+
+.coruja {
+  margin-top: 90px;
+}
+
+/*QUOTEDO FINAL*/
+
+.quote {
+  margin-top: 90px;
+  text-align: center;
+}
+.frase {
+  margin-top: 30px;
+  font-size: 24px;
+  font-family: "Gelasio", serif;
+  font-style: italic;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.autor {
+  font-size: 14px;
+  letter-spacing: 0.1em;
+  margin-bottom: 30px;
+}
+.separadorcima {
+  width: 630px;
+  height: 70px;
+  background: #2d2d2d;
+}
+.separadorbaixo {
+  width: 630px;
+  height: 70px;
+  background: #2d2d2d;
+  margin-left: 719px;
+}
+.footer {
+  margin-top: 90px;
+  max-width: 100%;
+  height: 70px;
+  background: #c4c4c4;
+}
+.footer p {
+  padding-top: 25px;
+  font-size: 14px;
+  color: #2c2c2c;
+  text-align: center;
+}
